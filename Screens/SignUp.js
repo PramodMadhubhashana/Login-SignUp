@@ -8,7 +8,7 @@ import { useNavigation } from '@react-navigation/native'
 export default function SignUp() {
     const navigationpage = useNavigation();
     return (
-        <View className='bg-white h-full w-full  pt-20'>
+        <View className='bg-white h-full w-full  pt-10'>
             <StatusBar style='dark' />
             <Image className='h-full w-full absolute' source={require('../Assets/Images/backgroundgreend.png')} />
             <View className='flex flex-row justify-around w-full h-full absolute'>
